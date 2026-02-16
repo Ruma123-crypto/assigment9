@@ -15,7 +15,7 @@ const handleLogOut = () => {
       alert('Log out successful')
     })
     .catch((error) => {
-      console.error(error);
+      // console.error(error);
       alert(error.message);
     });
 };

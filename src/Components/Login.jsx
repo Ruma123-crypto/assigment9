@@ -18,13 +18,13 @@ const handleSignIn=((e)=>
    .then((result)=>
   {
     const user=result.user
-    console.log(user);
+    // console.log(user);
     navigate(`${location.state?location.state:'/'}`)
    
   })
   .catch((error)=>
   {
-    console.log(error.message)
+    // console.log(error.message)
   })
 }
 )
@@ -35,12 +35,12 @@ const handleGoogleSignIN = () => {
   googleSignIn()
     .then((result) => {
       const user = result.user;
-      console.log(user);
+      // console.log(user);
       toast.success("Google login successful!");
       navigate('/');
     })
     .catch((error) => {
-      console.log(error.message);
+      // console.log(error.message);
       toast.error(error.message);
     })
     .finally(() => setLoading(false));
