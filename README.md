@@ -1,16 +1,30 @@
-# React + Vite
+# 🐾 Winter Pet Care Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔹 Project Purpose
+This project is a **Winter Pet Care Website** that provides tips, expert guidance, and a platform to book pet care services during the winter season. The goal is to ensure pet owners have access to useful information and services to keep their pets healthy and cozy in cold weather.
 
-Currently, two official plugins are available:
+## 🔹 Live URL
+[Live Demo](https://your-live-url.com)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*(Replace with your actual deployed link)*
 
-## React Compiler
+## 🔹 Key Features
+- ❄ Winter care tips for pets
+- 🐶 Display of expert veterinarians and services
+- 📋 Service booking form with Name and Email
+- 🔒 Protected service details page (requires login)
+- 💌 Success toast notifications on form submission
+- 🌐 Responsive design for desktop and mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔹 NPM Packages Used
+- `react` – Frontend framework  
+- `react-router-dom` – Routing and navigation  
+- `react-hot-toast` – Toast notifications  
+- `swiper` – Carousel/slider for hero section  
+- `daisyui` – Tailwind CSS component library  
+- `tailwindcss` – Utility-first CSS framework  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔹 Installation & Setup
+1. Clone the repository:  
+```bash
+git clone https://github.com/your-username/your-project.git
